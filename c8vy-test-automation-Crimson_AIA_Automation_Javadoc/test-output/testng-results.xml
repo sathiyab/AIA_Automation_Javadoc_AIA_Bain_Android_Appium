@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="24" total="92" passed="64" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-22T18:41:53 IST" name="Suite" finished-at="2021-01-22T19:17:47 IST" duration-ms="2154486">
+    <groups>
+    </groups>
+    <test started-at="2021-01-22T18:41:53 IST" name="API-Test" finished-at="2021-01-22T18:43:31 IST" duration-ms="97950">
+      <class name="com.pom.crimson.testcases.api.MasterDataControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:05 IST" name="beforeClass" finished-at="2021-01-22T18:43:07 IST" duration-ms="1832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:07 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:07 IST" name="beforeMethod" finished-at="2021-01-22T18:43:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetActiveBenefitsAPI()[pri:1, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:07 IST" name="verifyGetActiveBenefitsAPI" description="Master Data Controller - Get all Active Benefits" finished-at="2021-01-22T18:43:08 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetActiveBenefitsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="afterMethod" finished-at="2021-01-22T18:43:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyGetAppSettingsAPI()[pri:2, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="verifyGetAppSettingsAPI" description="Master Data Controller - Get App Settings" finished-at="2021-01-22T18:43:08 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAppSettingsAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="beforeMethod" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="afterMethod" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="beforeMethod" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetArcheTypesAPI()[pri:3, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="verifyGetArcheTypesAPI" description="Master Data Controller - Get Arche Types" finished-at="2021-01-22T18:43:08 IST" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetArcheTypesAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="afterMethod" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyGetCountriesAPI()[pri:4, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="verifyGetCountriesAPI" description="Master Data Controller - Get Countries" finished-at="2021-01-22T18:43:09 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetCountriesAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:08 IST" name="beforeMethod" finished-at="2021-01-22T18:43:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="afterMethod" finished-at="2021-01-22T18:43:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="beforeMethod" finished-at="2021-01-22T18:43:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetInterestsAPI()[pri:5, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="verifyGetInterestsAPI" description="Master Data Controller - Get Interests" finished-at="2021-01-22T18:43:09 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetInterestsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="afterMethod" finished-at="2021-01-22T18:43:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="beforeMethod" finished-at="2021-01-22T18:43:09 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetProvincesAPI()[pri:6, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="verifyGetProvincesAPI" description="Master Data Controller - Get Provinces" finished-at="2021-01-22T18:43:10 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProvincesAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:09 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:10 IST" name="afterMethod" finished-at="2021-01-22T18:43:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:10 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:10 IST" name="beforeMethod" finished-at="2021-01-22T18:43:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetRelationshipsAPI()[pri:7, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:10 IST" name="verifyGetRelationshipsAPI" description="Master Data Controller - Get Relationships" finished-at="2021-01-22T18:43:10 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetRelationshipsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MasterDataControllerAPITest@6e9175d8]" started-at="2021-01-22T18:43:10 IST" name="afterMethod" finished-at="2021-01-22T18:43:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.MasterDataControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.MomentsRootControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.MomentsRootControllerAPITest@4b741d6d]" started-at="2021-01-22T18:43:21 IST" name="beforeClass" finished-at="2021-01-22T18:43:23 IST" duration-ms="1825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MomentsRootControllerAPITest@4b741d6d]" started-at="2021-01-22T18:43:23 IST" name="beforeMethod" finished-at="2021-01-22T18:43:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MomentsRootControllerAPITest@4b741d6d]" started-at="2021-01-22T18:43:23 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetMomentsRootControllerAPI()[pri:0, instance:com.pom.crimson.testcases.api.MomentsRootControllerAPITest@4b741d6d]" started-at="2021-01-22T18:43:23 IST" name="verifyGetMomentsRootControllerAPI" description="Moments Root Controller - Get Moments Root Controller" finished-at="2021-01-22T18:43:23 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetMomentsRootControllerAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MomentsRootControllerAPITest@4b741d6d]" started-at="2021-01-22T18:43:23 IST" name="afterMethod" finished-at="2021-01-22T18:43:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.MomentsRootControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.MomentsControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.MomentsControllerAPITest@15bb5034]" started-at="2021-01-22T18:43:17 IST" name="beforeClass" finished-at="2021-01-22T18:43:20 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MomentsControllerAPITest@15bb5034]" started-at="2021-01-22T18:43:20 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MomentsControllerAPITest@15bb5034]" started-at="2021-01-22T18:43:20 IST" name="beforeMethod" finished-at="2021-01-22T18:43:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetMomentsProfileIdAPI()[pri:0, instance:com.pom.crimson.testcases.api.MomentsControllerAPITest@15bb5034]" started-at="2021-01-22T18:43:20 IST" name="GetMomentsProfileIdAPI" description="Content Controller - Get Moments Controller Profile Id" finished-at="2021-01-22T18:43:21 IST" duration-ms="1335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMomentsProfileIdAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MomentsControllerAPITest@15bb5034]" started-at="2021-01-22T18:43:21 IST" name="afterMethod" finished-at="2021-01-22T18:43:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.MomentsControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.GroupAdviceAPITest">
+        <test-method is-config="true" signature="beforeClassLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:51 IST" name="beforeClassLocal" finished-at="2021-01-22T18:42:53 IST" duration-ms="1681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="beforeMethod" finished-at="2021-01-22T18:42:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyRootAPI()[pri:1, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="verifyRootAPI" description="Group Controller - Root Health Check" finished-at="2021-01-22T18:42:53 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRootAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="afterMethod" finished-at="2021-01-22T18:42:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="beforeMethod" finished-at="2021-01-22T18:42:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetAllGroupsAPI()[pri:2, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="verifyGetAllGroupsAPI" description="Group Controller - Get all Groups" finished-at="2021-01-22T18:42:53 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllGroupsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="afterMethod" finished-at="2021-01-22T18:42:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="beforeMethod" finished-at="2021-01-22T18:42:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetGroupByGroupIDAPI()[pri:3, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:53 IST" name="verifyGetGroupByGroupIDAPI" description="Group Controller - Get Group by GroupID" finished-at="2021-01-22T18:42:54 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetGroupByGroupIDAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:54 IST" name="afterMethod" finished-at="2021-01-22T18:42:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:54 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:54 IST" name="beforeMethod" finished-at="2021-01-22T18:42:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetGroupMemInfoByGroupIDAPI()[pri:4, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:54 IST" name="verifyGetGroupMemInfoByGroupIDAPI" description="Group Controller - Get Group Members by GroupID" finished-at="2021-01-22T18:42:55 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetGroupMemInfoByGroupIDAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="afterMethod" finished-at="2021-01-22T18:42:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="beforeMethod" finished-at="2021-01-22T18:42:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetAllAvailableGroupsAPI()[pri:5, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="verifyGetAllAvailableGroupsAPI" description="Group Controller - Get all Available Groups" finished-at="2021-01-22T18:42:55 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllAvailableGroupsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="afterMethod" finished-at="2021-01-22T18:42:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyGetGroupByUserIDAPI()[pri:8, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="verifyGetGroupByUserIDAPI" description="Group Controller - Get Group by UserID" finished-at="2021-01-22T18:42:56 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetGroupByUserIDAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:55 IST" name="beforeMethod" finished-at="2021-01-22T18:42:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:56 IST" name="afterMethod" finished-at="2021-01-22T18:42:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:56 IST" name="beforeMethod" finished-at="2021-01-22T18:42:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGroupInviteAPI()[pri:9, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:56 IST" name="verifyGroupInviteAPI" description="Group Controller - Create Invite &amp; Retrieve it by Invite Code" finished-at="2021-01-22T18:42:58 IST" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGroupInviteAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:56 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="afterMethod" finished-at="2021-01-22T18:42:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="beforeMethod" finished-at="2021-01-22T18:42:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetGroupByLiveEventsAPI()[pri:10, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="verifyGetGroupByLiveEventsAPI" description="Group Event Controller - Get All Live Events" finished-at="2021-01-22T18:42:58 IST" duration-ms="539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetGroupByLiveEventsAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="afterMethod" finished-at="2021-01-22T18:42:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="beforeMethod" finished-at="2021-01-22T18:42:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetEventsByTopicIDAPI()[pri:11, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="verifyGetEventsByTopicIDAPI" description="Topic Controller - Get Event by TopicID" finished-at="2021-01-22T18:42:59 IST" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetEventsByTopicIDAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:58 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:59 IST" name="afterMethod" finished-at="2021-01-22T18:42:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyGetPastEventsByUserAPI()[pri:12, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:59 IST" name="verifyGetPastEventsByUserAPI" description="Group Event Controller - Get Past Event by user" finished-at="2021-01-22T18:43:00 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetPastEventsByUserAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:59 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:42:59 IST" name="beforeMethod" finished-at="2021-01-22T18:42:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="afterMethod" finished-at="2021-01-22T18:43:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="beforeMethod" finished-at="2021-01-22T18:43:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetUpcomingEventsByUserAPI()[pri:13, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="verifyGetUpcomingEventsByUserAPI" description="Group Event Controller - Get Upcoming Event by user" finished-at="2021-01-22T18:43:00 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUpcomingEventsByUserAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="afterMethod" finished-at="2021-01-22T18:43:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="beforeMethod" finished-at="2021-01-22T18:43:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetAllTopicsAPI()[pri:14, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="verifyGetAllTopicsAPI" description="Topic Controller - Get all Topics" finished-at="2021-01-22T18:43:00 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetAllTopicsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="afterMethod" finished-at="2021-01-22T18:43:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="beforeMethod" finished-at="2021-01-22T18:43:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetTopicByTopicIDAPI()[pri:15, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="verifyGetTopicByTopicIDAPI" description="Topic Controller - Get Topic by TopicID" finished-at="2021-01-22T18:43:01 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetTopicByTopicIDAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:00 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:01 IST" name="afterMethod" finished-at="2021-01-22T18:43:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:01 IST" name="beforeMethod" finished-at="2021-01-22T18:43:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetInterestsByTopicIDAPI()[pri:16, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:01 IST" name="verifyGetInterestsByTopicIDAPI" description="Topic Controller - Get the InterestIds for the requested topicId" finished-at="2021-01-22T18:43:02 IST" duration-ms="778" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Interests retrieved for the topic is not empty. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Interests retrieved for the topic is not empty. expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.pom.crimson.testcases.api.GroupAdviceAPITest.verifyGetInterestsByTopicIDAPI(GroupAdviceAPITest.java:319)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetInterestsByTopicIDAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:01 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:02 IST" name="afterMethod" finished-at="2021-01-22T18:43:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:02 IST" name="beforeMethod" finished-at="2021-01-22T18:43:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:02 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:02 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyPostRecomTopicByTopicIDAPI()[pri:17, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:02 IST" name="verifyPostRecomTopicByTopicIDAPI" description="Topic Controller - Save Recommended Topic" finished-at="2021-01-22T18:43:03 IST" duration-ms="847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostRecomTopicByTopicIDAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:03 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetRecommendedGroupsForUserAPI()[pri:18, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:03 IST" name="verifyGetRecommendedGroupsForUserAPI" description="Topic Controller - Get Recommended Groups for the userId" finished-at="2021-01-22T18:43:04 IST" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetRecommendedGroupsForUserAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:03 IST" name="afterMethod" finished-at="2021-01-22T18:43:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:03 IST" name="beforeMethod" finished-at="2021-01-22T18:43:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="afterMethod" finished-at="2021-01-22T18:43:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="beforeMethod" finished-at="2021-01-22T18:43:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifygetRecommendedEventsAPI()[pri:19, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="verifygetRecommendedEventsAPI" description="Topic Recommendation Controller - Get Recommended Live Events" finished-at="2021-01-22T18:43:04 IST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifygetRecommendedEventsAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="afterMethod" finished-at="2021-01-22T18:43:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="beforeMethod" finished-at="2021-01-22T18:43:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetSimilarEventsByTopicIDAPI()[pri:21, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:04 IST" name="verifyGetSimilarEventsByTopicIDAPI" description="Topic Recommendation Controller - Get the Similar Events List for the requested topicId" finished-at="2021-01-22T18:43:05 IST" duration-ms="887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetSimilarEventsByTopicIDAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:05 IST" name="afterMethod" finished-at="2021-01-22T18:43:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:05 IST" name="beforeMethod" finished-at="2021-01-22T18:43:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifygetAllActiveRecomTopicByUserAPI()[pri:22, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:05 IST" name="verifygetAllActiveRecomTopicByUserAPI" description="Topic Controller - Get all Active Recommended Topics" finished-at="2021-01-22T18:43:05 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifygetAllActiveRecomTopicByUserAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:05 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.GroupAdviceAPITest@78e4deb0]" started-at="2021-01-22T18:43:05 IST" name="afterMethod" finished-at="2021-01-22T18:43:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.GroupAdviceAPITest -->
+      <class name="com.pom.crimson.testcases.api.UserProfileControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:23 IST" name="beforeClass" finished-at="2021-01-22T18:43:25 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="beforeMethod" finished-at="2021-01-22T18:43:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetProfilesAPI()[pri:1, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="verifyGetProfilesAPI" description="User Profile Controller - Get all Profiles" finished-at="2021-01-22T18:43:25 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="afterMethod" finished-at="2021-01-22T18:43:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="beforeMethod" finished-at="2021-01-22T18:43:25 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetProfilesArcheTypesAPI()[pri:2, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:25 IST" name="verifyGetProfilesArcheTypesAPI" description="User Profile Controller - Get all Profiles Arche Types" finished-at="2021-01-22T18:43:26 IST" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesArcheTypesAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:26 IST" name="afterMethod" finished-at="2021-01-22T18:43:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:26 IST" name="beforeMethod" finished-at="2021-01-22T18:43:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:26 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetProfilesContactbenefitsAPI()[pri:3, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:26 IST" name="verifyGetProfilesContactbenefitsAPI" description="User Profile Controller - Get all Profiles Contact Benefits" finished-at="2021-01-22T18:43:27 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesContactbenefitsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:27 IST" name="afterMethod" finished-at="2021-01-22T18:43:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:27 IST" name="beforeMethod" finished-at="2021-01-22T18:43:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:27 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetProfilesImageAPI()[pri:4, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:27 IST" name="verifyGetProfilesImageAPI" description="User Profile Controller - Get all Profiles Images" finished-at="2021-01-22T18:43:28 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesImageAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:28 IST" name="afterMethod" finished-at="2021-01-22T18:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:28 IST" name="beforeMethod" finished-at="2021-01-22T18:43:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetProfilesInterestsAPI()[pri:5, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:28 IST" name="verifyGetProfilesInterestsAPI" description="User Profile Controller - Get all Profiles Interests" finished-at="2021-01-22T18:43:29 IST" duration-ms="1302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesInterestsAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:28 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:29 IST" name="afterMethod" finished-at="2021-01-22T18:43:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:29 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:29 IST" name="beforeMethod" finished-at="2021-01-22T18:43:29 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetProfilesNpsAPI()[pri:6, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:29 IST" name="verifyGetProfilesNpsAPI" description="User Profile Controller - Get all Profiles NPS" finished-at="2021-01-22T18:43:30 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesNpsAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:30 IST" name="afterMethod" finished-at="2021-01-22T18:43:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyGetProfilesRelatedPersonsAPI()[pri:7, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:30 IST" name="verifyGetProfilesRelatedPersonsAPI" description="User Profile Controller - Get all Profiles Related Persons" finished-at="2021-01-22T18:43:31 IST" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetProfilesRelatedPersonsAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:30 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:30 IST" name="beforeMethod" finished-at="2021-01-22T18:43:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.UserProfileControllerAPITest@2eae8e6e]" started-at="2021-01-22T18:43:31 IST" name="afterMethod" finished-at="2021-01-22T18:43:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.UserProfileControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.MilestonesControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:10 IST" name="beforeClass" finished-at="2021-01-22T18:43:12 IST" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:12 IST" name="beforeMethod" finished-at="2021-01-22T18:43:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:12 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetMilestonesAPI()[pri:1, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:12 IST" name="verifyGetMilestonesAPI" description="Milestones Controller - Get Milestones Controller" finished-at="2021-01-22T18:43:16 IST" duration-ms="4412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetMilestonesAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:16 IST" name="afterMethod" finished-at="2021-01-22T18:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:16 IST" name="beforeMethod" finished-at="2021-01-22T18:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:16 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:43:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetVaccineAPI()[pri:2, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:16 IST" name="verifyGetVaccineAPI" description="Milestones Controller - Get Vaccine Controller" finished-at="2021-01-22T18:43:17 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetVaccineAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.MilestonesControllerAPITest@7d0b7e3c]" started-at="2021-01-22T18:43:17 IST" name="afterMethod" finished-at="2021-01-22T18:43:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.MilestonesControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.AIAOctaControllerAPITest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:41:53 IST" name="beforeTest" finished-at="2021-01-22T18:41:53 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[API]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[RestAssured]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[androidOnly]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[org.testng.TestRunner@671f984c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:41:53 IST" name="beforeClass" finished-at="2021-01-22T18:42:02 IST" duration-ms="9443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:42:02 IST" name="beforeMethod" finished-at="2021-01-22T18:42:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:42:02 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:02 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetUserAPI()[pri:1, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:42:02 IST" name="verifyGetUserAPI" description="AIA Octa Controller - Get Users" finished-at="2021-01-22T18:42:03 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUserAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:42:04 IST" name="afterMethod" finished-at="2021-01-22T18:42:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.pom.crimson.testcases.api.AIAOctaControllerAPITest@2e8c1c9b]" started-at="2021-01-22T18:43:31 IST" name="afterTest" finished-at="2021-01-22T18:43:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.pom.crimson.testcases.api.AIAOctaControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.ContentControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:30 IST" name="beforeClass" finished-at="2021-01-22T18:42:36 IST" duration-ms="6366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:36 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:36 IST" name="beforeMethod" finished-at="2021-01-22T18:42:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetContentIdAPI()[pri:1, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:36 IST" name="verifyGetContentIdAPI" description="To verify Content Controller - Gets a specific piece of content based on its Strapi ID" finished-at="2021-01-22T18:42:39 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentIdAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="afterMethod" finished-at="2021-01-22T18:42:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="beforeMethod" finished-at="2021-01-22T18:42:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetContentDailyTipProfileIdAPI()[pri:2, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="verifyGetContentDailyTipProfileIdAPI" description="To verify Content Controller - Gets a daily tip for the given profile, if one exists" finished-at="2021-01-22T18:42:39 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentDailyTipProfileIdAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="afterMethod" finished-at="2021-01-22T18:42:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="beforeMethod" finished-at="2021-01-22T18:42:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:39 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetContentGroupProfileIdAPI()[pri:3, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:39 IST" name="verifyGetContentGroupProfileIdAPI" description="To verify Content Controller - Fetch recommended content based on a user&#039;s joined groups." finished-at="2021-01-22T18:42:42 IST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentGroupProfileIdAPI -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:42 IST" name="beforeMethod" finished-at="2021-01-22T18:42:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:42 IST" name="afterMethod" finished-at="2021-01-22T18:42:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:42 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetContentHomePageAPI()[pri:4, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:42 IST" name="verifyGetContentHomePageAPI" description="To verify Content Controller - Fetch recommended content for the homepage" finished-at="2021-01-22T18:42:43 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentHomePageAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:43 IST" name="afterMethod" finished-at="2021-01-22T18:42:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:43 IST" name="beforeMethod" finished-at="2021-01-22T18:42:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetContentIdsAPI()[pri:5, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:43 IST" name="verifyGetContentIdsAPI" description="To verify Content Controller - Gets a list of content based on given Strapi IDs." finished-at="2021-01-22T18:42:44 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentIdsAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:43 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:45 IST" name="afterMethod" finished-at="2021-01-22T18:42:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:45 IST" name="beforeMethod" finished-at="2021-01-22T18:42:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:45 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetContentProfileIdAPI()[pri:6, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:45 IST" name="verifyGetContentProfileIdAPI" description="To verify Content Controller - Fetch recommended content based on a user&#039;s interests." finished-at="2021-01-22T18:42:46 IST" duration-ms="1647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentProfileIdAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:46 IST" name="afterMethod" finished-at="2021-01-22T18:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:46 IST" name="beforeMethod" finished-at="2021-01-22T18:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:46 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyGetContentInterestNameAPI()[pri:7, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:46 IST" name="verifyGetContentInterestNameAPI" description="To verify Content Controller - Fetch recommended content based on a specific interest" finished-at="2021-01-22T18:42:48 IST" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentInterestNameAPI -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentControllerAPITest@1530c739]" started-at="2021-01-22T18:42:48 IST" name="afterMethod" finished-at="2021-01-22T18:42:48 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.ContentControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.ContentRootControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.ContentRootControllerAPITest@5b1669c0]" started-at="2021-01-22T18:42:48 IST" name="beforeClass" finished-at="2021-01-22T18:42:51 IST" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentRootControllerAPITest@5b1669c0]" started-at="2021-01-22T18:42:51 IST" name="beforeMethod" finished-at="2021-01-22T18:42:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGetContentRootControllerAPI()[pri:0, instance:com.pom.crimson.testcases.api.ContentRootControllerAPITest@5b1669c0]" started-at="2021-01-22T18:42:51 IST" name="verifyGetContentRootControllerAPI" description="Content Root Controller - Get Content Root Controller" finished-at="2021-01-22T18:42:51 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetContentRootControllerAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentRootControllerAPITest@5b1669c0]" started-at="2021-01-22T18:42:51 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentRootControllerAPITest@5b1669c0]" started-at="2021-01-22T18:42:51 IST" name="afterMethod" finished-at="2021-01-22T18:42:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.ContentRootControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.ContentActionControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:08 IST" name="beforeClass" finished-at="2021-01-22T18:42:15 IST" duration-ms="7384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:15 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="postBookmarkcontent()[pri:1, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:15 IST" name="postBookmarkcontent" description="Content Action Controller - Bookmark a piece of content" finished-at="2021-01-22T18:42:18 IST" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postBookmarkcontent -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:15 IST" name="beforeMethod" finished-at="2021-01-22T18:42:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:18 IST" name="afterMethod" finished-at="2021-01-22T18:42:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:18 IST" name="beforeMethod" finished-at="2021-01-22T18:42:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetBookmarkProfileId()[pri:2, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:18 IST" name="GetBookmarkProfileId" description="Content Action Controller - Get Bookmarked content by ProfileId" finished-at="2021-01-22T18:42:19 IST" duration-ms="1099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookmarkProfileId -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:18 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:19 IST" name="afterMethod" finished-at="2021-01-22T18:42:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:19 IST" name="beforeMethod" finished-at="2021-01-22T18:42:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="putUnbookmarkProfileId()[pri:3, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:19 IST" name="putUnbookmarkProfileId" description="Content Action Controller - Un-bookmark a piece of content" finished-at="2021-01-22T18:42:20 IST" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUnbookmarkProfileId -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:19 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:20 IST" name="afterMethod" finished-at="2021-01-22T18:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="postViewedcontent()[pri:4, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:20 IST" name="postViewedcontent" description="Content Action Controller - Record viewing of a piece of content" finished-at="2021-01-22T18:42:22 IST" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postViewedcontent -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:20 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:20 IST" name="beforeMethod" finished-at="2021-01-22T18:42:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:22 IST" name="afterMethod" finished-at="2021-01-22T18:42:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="GetContentHistory()[pri:5, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:22 IST" name="GetContentHistory" description="Content Action Controller - Get Content History" finished-at="2021-01-22T18:42:23 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetContentHistory -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:22 IST" name="beforeMethod" finished-at="2021-01-22T18:42:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:22 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:23 IST" name="afterMethod" finished-at="2021-01-22T18:42:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:23 IST" name="beforeMethod" finished-at="2021-01-22T18:42:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postLikecontent()[pri:6, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:23 IST" name="postLikecontent" description="Content Action Controller - Like a piece of content" finished-at="2021-01-22T18:42:25 IST" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postLikecontent -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:23 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:25 IST" name="afterMethod" finished-at="2021-01-22T18:42:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:25 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:25 IST" name="beforeMethod" finished-at="2021-01-22T18:42:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetLikeProfileId()[pri:7, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:25 IST" name="GetLikeProfileId" description="Content Action Controller - Get a list of likes for a profile" finished-at="2021-01-22T18:42:26 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLikeProfileId -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:26 IST" name="afterMethod" finished-at="2021-01-22T18:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:26 IST" name="beforeMethod" finished-at="2021-01-22T18:42:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:26 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="putUnlikeContent()[pri:8, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:26 IST" name="putUnlikeContent" description="Content Action Controller - Un-like a piece of content" finished-at="2021-01-22T18:42:28 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putUnlikeContent -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:28 IST" name="afterMethod" finished-at="2021-01-22T18:42:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="postcontentShare()[pri:9, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:28 IST" name="postcontentShare" description="Content Action Controller - Record sharing of a piece of content" finished-at="2021-01-22T18:42:30 IST" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcontentShare -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:28 IST" name="beforeMethod" finished-at="2021-01-22T18:42:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:28 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.ContentActionControllerAPITest@449a4f23]" started-at="2021-01-22T18:42:30 IST" name="afterMethod" finished-at="2021-01-22T18:42:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->﻿
+      </class> <!-- com.pom.crimson.testcases.api.ContentActionControllerAPITest -->
+      <class name="com.pom.crimson.testcases.api.CdsControllerAPITest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.pom.crimson.testcases.api.CdsControllerAPITest@53fe15ff]" started-at="2021-01-22T18:42:04 IST" name="beforeClass" finished-at="2021-01-22T18:42:06 IST" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.api.CdsControllerAPITest@53fe15ff]" started-at="2021-01-22T18:42:06 IST" name="beforeMethod" finished-at="2021-01-22T18:42:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCdsEntityAPI()[pri:0, instance:com.pom.crimson.testcases.api.CdsControllerAPITest@53fe15ff]" started-at="2021-01-22T18:42:06 IST" name="verifyCdsEntityAPI" description="Cds Controller - Get Cds Entity" finished-at="2021-01-22T18:42:07 IST" duration-ms="1786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCdsEntityAPI -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.api.CdsControllerAPITest@53fe15ff]" started-at="2021-01-22T18:42:06 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:42:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.api.CdsControllerAPITest@53fe15ff]" started-at="2021-01-22T18:42:08 IST" name="afterMethod" finished-at="2021-01-22T18:42:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.pom.crimson.testcases.api.CdsControllerAPITest -->
+    </test> <!-- API-Test -->
+    <test started-at="2021-01-22T18:43:31 IST" name="Pixel_3_API_30" finished-at="2021-01-22T19:17:47 IST" duration-ms="2056256">
+      <class name="com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest">
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:43:31 IST" name="beforeTest" finished-at="2021-01-22T18:44:10 IST" duration-ms="38768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pixel_3_API_30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11000]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[iOSOnly]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[org.testng.TestRunner@5a947fd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTestLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:44:10 IST" name="beforeTestLocal" finished-at="2021-01-22T18:44:14 IST" depends-on-methods="com.pom.crimson.base.BaseFixture.beforeTest" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestLocal -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:44:14 IST" name="beforeMethod" finished-at="2021-01-22T18:44:28 IST" duration-ms="13915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:44:28 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:44:50 IST" duration-ms="22686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyEventsPageLoad()[pri:1, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:44:50 IST" name="verifyEventsPageLoad" description="To verify Live Events Page Loading and Elements displayed in the page" finished-at="2021-01-22T18:46:07 IST" duration-ms="76531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEventsPageLoad -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:46:07 IST" name="afterMethod" finished-at="2021-01-22T18:46:08 IST" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:46:08 IST" name="beforeMethod" finished-at="2021-01-22T18:46:21 IST" duration-ms="12667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:46:21 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:46:41 IST" duration-ms="20431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyRecommendedEventCard()[pri:2, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:46:41 IST" name="verifyRecommendedEventCard" description="To verify Recommended events and click on the Event card." finished-at="2021-01-22T18:49:20 IST" duration-ms="158612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecommendedEventCard -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:49:20 IST" name="afterMethod" finished-at="2021-01-22T18:49:21 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:49:21 IST" name="beforeMethod" finished-at="2021-01-22T18:49:33 IST" duration-ms="12124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:49:33 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:49:54 IST" duration-ms="20537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyAllLiveEvents()[pri:3, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:49:54 IST" name="verifyAllLiveEvents" description="To click on All Events link in Events page and check All Events Page Load." finished-at="2021-01-22T18:54:03 IST" duration-ms="248929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllLiveEvents -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:54:03 IST" name="afterMethod" finished-at="2021-01-22T18:54:04 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:54:04 IST" name="beforeMethod" finished-at="2021-01-22T18:54:16 IST" duration-ms="11799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:54:16 IST" name="beforeMethodLocal" finished-at="2021-01-22T18:54:38 IST" duration-ms="22099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyEventDetailsPageUnAssigned()[pri:4, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:54:38 IST" name="verifyEventDetailsPageUnAssigned" description="Verify Event Details Page layout for unassigned events." finished-at="2021-01-22T18:59:50 IST" duration-ms="312061" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+"LIVE FORMAT" Heading should be displayed expected [true] but found [false],
+"DURATION" Heading should be displayed expected [true] but found [false],
+"HOW TO PARTICIPATE" Heading should be displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+"LIVE FORMAT" Heading should be displayed expected [true] but found [false],
+"DURATION" Heading should be displayed expected [true] but found [false],
+"HOW TO PARTICIPATE" Heading should be displayed expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest.verifyEventDetailsPageUnAssigned(LiveEventsPageTest.java:286)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEventDetailsPageUnAssigned -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:59:50 IST" name="afterMethod" finished-at="2021-01-22T18:59:51 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T18:59:51 IST" name="beforeMethod" finished-at="2021-01-22T19:00:03 IST" duration-ms="12069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:00:03 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:00:23 IST" duration-ms="20438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyUpcomingEventCardHPBeforeEventScheduling()[pri:5, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:00:23 IST" name="verifyUpcomingEventCardHPBeforeEventScheduling" description="To verify Upcoming Live Events Card in Home Page before scheduling any live Event" finished-at="2021-01-22T19:01:02 IST" duration-ms="38682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingEventCardHPBeforeEventScheduling -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:01:02 IST" name="afterMethod" finished-at="2021-01-22T19:01:03 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:01:03 IST" name="beforeMethod" finished-at="2021-01-22T19:01:15 IST" duration-ms="12173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:01:15 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:01:36 IST" duration-ms="20277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyEventScheduling()[pri:6, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:01:36 IST" name="verifyEventScheduling" description="To verify Live Events scheduling and check if the scheduled event appears in upcoming event list" finished-at="2021-01-22T19:02:46 IST" duration-ms="70236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEventScheduling -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:02:46 IST" name="afterMethod" finished-at="2021-01-22T19:02:47 IST" duration-ms="1258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:02:47 IST" name="beforeMethod" finished-at="2021-01-22T19:02:59 IST" duration-ms="11802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:02:59 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:03:20 IST" duration-ms="21164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyUpcomingEventCard()[pri:7, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:03:20 IST" name="verifyUpcomingEventCard" description="To verify Upcoming Event Card in Live Events Page" finished-at="2021-01-22T19:06:11 IST" duration-ms="170772" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Similar live events heading should be displayed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Similar live events heading should be displayed expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest.verifyUpcomingEventCard(LiveEventsPageTest.java:432)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingEventCard -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:06:11 IST" name="afterMethod" finished-at="2021-01-22T19:06:13 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:06:13 IST" name="beforeMethod" finished-at="2021-01-22T19:06:26 IST" duration-ms="12844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:06:26 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:06:45 IST" duration-ms="19903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifySeeAllUpcomingEvents()[pri:8, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:06:45 IST" name="verifySeeAllUpcomingEvents" description="To verify See all Upcoming Events page when clicked from Live Events Page" finished-at="2021-01-22T19:08:29 IST" duration-ms="103807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeeAllUpcomingEvents -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:08:29 IST" name="afterMethod" finished-at="2021-01-22T19:08:30 IST" duration-ms="1092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:08:30 IST" name="beforeMethod" finished-at="2021-01-22T19:08:43 IST" duration-ms="12283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:08:43 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:09:03 IST" duration-ms="20667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyUpcomingEventCardHP()[pri:9, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:09:03 IST" name="verifyUpcomingEventCardHP" description="To verify upcoming Live Event Card in Home Page" finished-at="2021-01-22T19:10:53 IST" duration-ms="109927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpcomingEventCardHP -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:10:53 IST" name="afterMethod" finished-at="2021-01-22T19:10:54 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:10:54 IST" name="beforeMethod" finished-at="2021-01-22T19:11:06 IST" duration-ms="11376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:11:06 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:11:26 IST" duration-ms="19931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyAllInterests()[pri:10, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:11:26 IST" name="verifyAllInterests" description="To verify See all Upcoming Events page when clicked from Live Events Page" finished-at="2021-01-22T19:12:40 IST" duration-ms="74397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllInterests -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:12:40 IST" name="afterMethod" finished-at="2021-01-22T19:12:41 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:12:41 IST" name="beforeMethod" finished-at="2021-01-22T19:12:53 IST" duration-ms="12026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:12:53 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:13:14 IST" duration-ms="20489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyContactUsPageFromLiveEvents()[pri:11, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:13:14 IST" name="verifyContactUsPageFromLiveEvents" description="To verify Drop us a message link in Live Events Page" finished-at="2021-01-22T19:13:46 IST" duration-ms="31722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPageFromLiveEvents -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:13:46 IST" name="afterMethod" finished-at="2021-01-22T19:13:47 IST" duration-ms="1089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:13:47 IST" name="beforeMethod" finished-at="2021-01-22T19:13:59 IST" duration-ms="11981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethodLocal()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:13:59 IST" name="beforeMethodLocal" finished-at="2021-01-22T19:14:19 IST" duration-ms="19921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodLocal -->
+        <test-method signature="verifyContactUsPageFromEventDtlsPage()[pri:12, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:14:19 IST" name="verifyContactUsPageFromEventDtlsPage" description="To verify Drop us a message link in Event Details Page" finished-at="2021-01-22T19:17:41 IST" duration-ms="202313" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+"Drop us a message" link should be displayed expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+"Drop us a message" link should be displayed expected [false] but found [true]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest.verifyContactUsPageFromEventDtlsPage(LiveEventsPageTest.java:687)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1380)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUsPageFromEventDtlsPage -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:17:41 IST" name="afterMethod" finished-at="2021-01-22T19:17:42 IST" duration-ms="1169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest@35dab4eb]" started-at="2021-01-22T19:17:42 IST" name="afterTest" finished-at="2021-01-22T19:17:47 IST" duration-ms="4877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest -->
+    </test> <!-- Pixel_3_API_30 -->
+  </suite> <!-- Suite -->
+</testng-results>

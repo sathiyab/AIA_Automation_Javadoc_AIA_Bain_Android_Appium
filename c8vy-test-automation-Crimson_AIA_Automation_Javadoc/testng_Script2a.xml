@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- screenshotCaptureStage - 1 for capturing screenshot at test step level, 2 for capturing screenshot at test case level -->
+<suite thread-count="1" verbose="1" name="Suite">
+	<listeners>
+		<listener class-name="com.pom.crimson.listeners.TestListener" />
+	</listeners>    
+   	<test name="API-Test" group-by-instances="true">
+  		<parameter name="platformName" value="API" />
+		<parameter name="deviceName" value="RestAssured" />
+		<parameter name="screenshotCaptureStage" value="1" />   
+		<parameter name="passScreenshotFlag" value="Y" />
+	</test>  	         	 
+   	<test name="Pixel_3_API_30" group-by-instances="true">
+  		<parameter name="platformName" value="Android" />
+		<parameter name="emulator" value="true" />
+		<parameter name="platformVersion" value="8.0" />
+		<parameter name="deviceName" value="Pixel_3_API_30" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<parameter name="screenshotCaptureStage" value="1" />   
+		<parameter name="passScreenshotFlag" value="Y" />
+		<classes>
+ 			<class name="com.pom.crimson.testcases.GroupHomePageTest"></class> 		
+		
+		</classes>
+	</test>              
+</suite> 
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- screenshotCaptureStage - 1 for capturing screenshot at test step level, 2 for capturing screenshot at test case level -->
+<suite thread-count="1" verbose="1" name="Suite">
+	<listeners>
+		<listener class-name="com.pom.crimson.listeners.TestListener" />
+	</listeners>    
+   	<test name="API-Test" group-by-instances="true">
+  		<parameter name="platformName" value="API" />
+		<parameter name="deviceName" value="RestAssured" />
+		<parameter name="screenshotCaptureStage" value="1" />   
+		<parameter name="passScreenshotFlag" value="N" />
+		<classes> 
+ 			<class name="com.pom.crimson.testcases.api.AIAOctaControllerAPITest"></class> 		
+ 			<class name="com.pom.crimson.testcases.api.CdsControllerAPITest"></class>  
+ 			<class name="com.pom.crimson.testcases.api.ContentActionControllerAPITest"></class>  
+ 			<class name="com.pom.crimson.testcases.api.ContentControllerAPITest"></class> 
+ 			<class name="com.pom.crimson.testcases.api.ContentRootControllerAPITest"></class>
+ 			<class name="com.pom.crimson.testcases.api.GroupAdviceAPITest"></class> 
+ 			<class name="com.pom.crimson.testcases.api.MasterDataControllerAPITest"></class>
+ 			<class name="com.pom.crimson.testcases.api.MilestonesControllerAPITest"></class>
+ 			<class name="com.pom.crimson.testcases.api.MomentsControllerAPITest"></class>
+ 			<class name="com.pom.crimson.testcases.api.MomentsRootControllerAPITest"></class>
+ 			<class name="com.pom.crimson.testcases.api.UserProfileControllerAPITest"></class>
+		</classes> 
+	</test>  	        	 
+   	<test name="Pixel_3_API_30" group-by-instances="true">
+  		<parameter name="platformName" value="Android" />
+		<parameter name="emulator" value="true" />
+		<parameter name="platformVersion" value="8.0" />
+		<parameter name="deviceName" value="Pixel_3_API_30" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		<parameter name="screenshotCaptureStage" value="1" />   
+		<parameter name="passScreenshotFlag" value="Y" />
+		<classes>
+						
+		<class name="com.pom.crimson.testcases.explore.smoke.BasedOnGroupsPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.ContentPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.DiscoverTopicsPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.ExplorePageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.FilteredInterestResultPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.HomePageCardTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.HomePageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.smoke.UpdateYourInterestPageTest"></class>  
+		<class name="com.pom.crimson.testcases.momentlog.smoke.GrowthLogPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.smoke.VaccineLogPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.smoke.MomentLogPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.smoke.EmptyStateTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.smoke.AddNewMomentPageTest"></class>
+			 
+		<class name="com.pom.crimson.testcases.explore.high.BasedOnGroupsPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.high.ContentPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.high.DiscoverTopicsPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.high.ExplorePageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.high.FilteredInterestResultPageTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.high.UpdateYourInterestPageTest"></class>  
+		<class name="com.pom.crimson.testcases.momentlog.high.GrowthLogPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.high.EmptyStateTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.high.AddNewMomentPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.high.EditMomentPageTest"></class> 
+		<class name="com.pom.crimson.testcases.explore.medium.ExplorePageBasedOnGroupsSectionTest"></class>  
+		<class name="com.pom.crimson.testcases.explore.medium.HomePageCardTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.medium.AddNewMomentPageMilestoneTabTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.medium.AddNewMomentPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.medium.GrowthLogPageTest"></class> 
+		<class name="com.pom.crimson.testcases.momentlog.medium.VaccineLogPageTest"></class>
+
+ 		<class name="com.pom.crimson.testcases.LiveEvents.LiveEventsPageTest"></class>	
+		<class name="com.pom.crimson.testcases.GroupHomePageTest"></class> 		
+			
+	<!-- Inorder to run Manage Profile Test cases, set the Archtype to Planning to Have a baby for the user, redeem rewards entry should be removed in Dynamics if it already exists for the user
+	Google Login Test cases - Ensure emulator configured with Google user before executing these test cases and put the credentials in constants file
+	 Executing Facebook Login Test cases - Ensure emulator configured with Face book user before executing these test cases and put the credentials in constants file  -->
+
+	    <class name="com.pom.crimson.testcases.Login.LoginPageTest"></class>
+		<class name="com.pom.crimson.testcases.Intro.IntroPageTest"></class>
+		<class name="com.pom.crimson.testcases.ChangePassword.ChangePasswordEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ManageProfileEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ProfileEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.Account.AccountEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.ContactUs.ContactUsEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.FAQs.FAQsEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.Language.LanguageEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.RedeemReward.RedeemRewardEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.TalktoAIAAgent.TalktoAIAAgentEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.TermsOfUse.TermsOfUseEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.PrivacyPolicy.PrivacyPolicyEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.Logout.LogoutEmailPageTest"></class>
+		
+		<!-- Inorder to run Manage Profile Test cases, set the Archtype to Planning to Have a baby for the user, redeem rewards entry should be removed in Dynamics if it already exists for the user
+		Google Login Test cases - Ensure emulator configured with Google user before executing these test cases and put the credentials in constants file
+		 Executing Facebook Login Test cases - Ensure emulator configured with Face book user before executing these test cases and put the credentials in constants file
+		 --> 
+	   <!-- 	<class name="com.pom.crimson.testcases.ChangePassword.ChangePasswordGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.Account.AccountGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ManageProfileGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ProfileGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.RedeemReward.RedeemRewardGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.TalktoAIAAgent.TalktoAIAAgentGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.ContactUs.ContactUsGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.TermsOfUse.TermsOfUseGooglePageTest"></class> 
+		<class name="com.pom.crimson.testcases.PrivacyPolicy.PrivacyPolicyGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.FAQs.FAQsGooglePageTest"></class> 
+		<class name="com.pom.crimson.testcases.Logout.LogoutGooglePageTest"></class> -->
+		
+		<!-- Inorder to run Manage Profile Test cases, set the Archtype to Planning to Have a baby for the user, redeem rewards entry should be removed in Dynamics if it already exists for the user
+		Apple Login Test cases -->
+		
+	    <!-- <class name="com.pom.crimson.testcases.ChangePassword.ChangePasswordApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.Account.AccountApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ManageProfileApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ProfileApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.ContactUs.ContactUsApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.TalktoAIAAgent.TalktoAIAAgentApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.TermsOfUse.TermsOfUseApplePageTest"></class> 
+		<class name="com.pom.crimson.testcases.PrivacyPolicy.PrivacyPolicyApplePageTest"></class>
+       <class name="com.pom.crimson.testcases.FAQs.FAQsApplePageTest"></class>
+       <class name="com.pom.crimson.testcases.RedeemReward.RedeemRewardApplePageTest"></class>
+    	<class name="com.pom.crimson.testcases.Logout.LogoutApplePageTest"></class> -->
+       
+      <!--  Inorder to run Manage Profile Test cases, set the Archtype to Planning to Have a baby for the user, redeem rewards entry should be removed in Dynamics if it already exists for the user
+       Executing Facebook Login Test cases - Ensure emulator configured with Face book user before executing these test cases and put the credentials in constants file
+        -->
+  <!--      <class name="com.pom.crimson.testcases.ChangePassword.ChangePasswordFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.Account.AccountFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ManageProfileFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.ManageProfile.ProfileFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.ContactUs.ContactUsFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.TalktoAIAAgent.TalktoAIAAgentFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.TermsOfUse.TermsOfUseFacebookPageTest"></class> 
+		<class name="com.pom.crimson.testcases.PrivacyPolicy.PrivacyPolicyFacebookPageTest"></class>
+       <class name="com.pom.crimson.testcases.FAQs.FAQsFacebookPageTest"></class>
+       <class name="com.pom.crimson.testcases.RedeemReward.RedeemRewardFacebookPageTest"></class>
+       <class name="com.pom.crimson.testcases.Logout.LogoutFacebookPageTest"></class> -->
+        
+        <!-- Test cases not able to execute : NPS, Onboarding Journey and Feature Rating due to tab_showcase not available -->
+		<!-- <class name="com.pom.crimson.testcases.OnboardingJourney.OnboardingAppleLoginPageTest"></class>
+		<class name="com.pom.crimson.testcases.OnboardingJourney.OnboardingEmailLoginPageTest"></class>
+		<class name="com.pom.crimson.testcases.OnboardingJourney.OnboardingFacebookLoginPageTest"></class>
+		<class name="com.pom.crimson.testcases.OnboardingJourney.OnboardingGoogleLoginPageTest"></class>
+		<class name="com.pom.crimson.testcases.NPS.NPSApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.NPS.NPSEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.NPS.NPSFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.NPS.NPSGooglePageTest"></class>
+		<class name="com.pom.crimson.testcases.FeatureRatingDemo.FeatureRatingDemoApplePageTest"></class>
+		<class name="com.pom.crimson.testcases.FeatureRatingDemo.FeatureRatingDemoEmailPageTest"></class>
+		<class name="com.pom.crimson.testcases.FeatureRatingDemo.FeatureRatingDemoFacebookPageTest"></class>
+		<class name="com.pom.crimson.testcases.FeatureRatingDemo.FeatureRatingDemoGooglePageTest"></class> -->
+		</classes>
+		
+	</test>              
+</suite> 
+

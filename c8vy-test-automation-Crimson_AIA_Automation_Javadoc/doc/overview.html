@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+		<STYLE TYPE="text/css">
+			<!--
+		@page { size: 8.5in 11in; margin-left: 1in; margin-right: 1in; margin-top: 0.5in; margin-bottom: 1in }
+		P { margin-bottom: 0.08in; direction: ltr; widows: 2; orphans: 2 }
+		A:link { color: #0563c1; so-language: zxx }
+	-->
+		</STYLE>
+	</HEAD>
+	<BODY LANG="en-US" LINK="#0563c1" DIR="LTR">
+		<P STYLE="margin-bottom: 0.11in; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:30px">
+			<B>Automation Execution Guidelines</B>
+		</P>
+		<P STYLE="margin-bottom: 0.11in; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:25px">
+			AIA ALive Mobile App Testing and API
+		</P>
+		<br>
+		<br>
+		<OL>
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px ">
+						<B>About Framework</B>
+				</P>
+			
+		</OL>
+		<P STYLE="margin-bottom: 0.11in">The Test framework is designed using
+TestNG with Page Object Model. It’s a Modular Framework.  Mobile
+automation carried out using Appium. The language used is Java. The
+scope of automation is done only for Android. Reports generated using
+ExtentReports.</P>
+		<OL START="2">
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+						<B>Automation Scripts</B>
+				</P>
+			
+		</OL>
+		<P STYLE="margin-bottom: 0in">The automation Scripts covers Testing the API calls and Testing of Frontend Mobile App. </P>
+		<OL START="3">
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20p ">
+						<B>Test execution</B>
+				</P>
+			
+			<OL>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Prerequisites to execute Regression</P>
+				
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Dependencies/Limitations</P>
+				
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">How to execute the Test</P>
+				
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">How to verify the Results</P>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Notes related to Test data Creation/Deletion/Update</P>				
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Observations</P>									
+			</OL>
+			<OL START="1">
+				<LI>
+					<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+							<B>Prerequisites to execute Regression</B>
+					</P>
+				
+				<OL>
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">Following Softwares to be installed to run the automation suite:</P>
+					
+					<OL TYPE="a">
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Android Studio 4.0.1</P>
+						
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Appium</P>
+						
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Eclipse</P>
+						
+					</OL>
+				</OL>
+				<OL start="2">
+					<LI>
+						<P STYLE="margin-bottom: 0in; line-height: 100%">Ensure Emulator
+		is Active and Appium is running in the machine.</P>
+					
+				</OL>
+				<P STYLE="margin-left: 0.25in; text-indent: 0.5in; margin-bottom: 0in; line-height: 100%">
+	Note: Emulator recommended is 
+					<B>“Pixcel 3 API 30”</B>
+				</P>
+				<OL START="3">
+					<LI>
+						<P STYLE="margin-bottom: 0in; line-height: 100%">App login
+		credentials (Email and password) to be provided in
+		src/test/java/com.pom.crimson.util/Constants.java and in Properties file</P>
+					
+				</OL>
+				<P STYLE="margin-left: 0.75in; margin-bottom: 0in; line-height: 100%">
+	Note: Ensure to maintain separate credentials for automation and that
+	should not be used for other Testing.</P>
+				<OL START="4">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">Apk file is required and file
+		path has to be updated in project.properties file under resources
+		(Refer Screenshot below)</P>
+					
+				</OL>
+				<P STYLE="margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_c9383be.png" alt="Unable to display Image">
+				</P>
+				<OL START="5">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">Automation Test involves
+		triggering the API request to validate hence correct backend (API
+		end-point) urls in the project.properties file. (Sample Reference)</P>
+					
+				</OL>
+				<P STYLE="margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_2fe88388.png" alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<br>
+					<br>
+				</P>
+				<OL START="6">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">Sign-up via email is not
+		automated due to limitation in automation script hence user has to
+		create an email-id in the environment, post that email-id to be
+		updated in Constants file (Its under utils – Refer Screenshot
+		below)</P>
+					
+				</OL>
+				<P STYLE="margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_30cfd3ec.png"  alt="Unable to display Image">
+				</P>
+				<OL START="7">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">Emulator has to be registered
+		with Google and Facebook user. Post that, it needs to be updated in
+		Constants file.</P>
+					
+				</OL>
+				<P STYLE="margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_758b29f0.png" alt="Unable to display Image">
+				</P>
+				<P STYLE="text-indent: 0.25in; margin-bottom: 0.11in">
+					<B>Steps to
+	register the Google in emulator</B>
+				</P>
+				<P STYLE="margin-left: 0.25in; margin-bottom: 0.11in">
+					<B>Note:</B>
+	Ensure Google and Facebook credential is configured in emulator and
+	the same to be stored in Constants file.
+				</P>
+				<P STYLE="margin-left: 0.25in; text-indent: 0.5in; margin-bottom: 0.11in">
+					<B>Step1:</B> Click on 
+					<B>“Continue with Google”</B>
+				</P>
+				<P STYLE="margin-left: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_d7244b63.png" alt="Unable to display Image">
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<B>Step2:</B>
+	Click on “Accept and Close”
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_7b9ffbeb.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<B>Step3:</B> Click on Next
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_9e065e8b.png" alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<B>Step4: </B>Click “No Thanks”
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_8a720c49.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<B>Step5: </B>Configure with Google
+	credentials (Username)
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_2cb7a41.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<B>Step6: </B>Configure with Google
+	credentials (password)
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_bda573c4.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<B>Step7:</B> Logged in with Google
+	in Mobile App.
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_96f16b83.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<B>Step8: Verify logged in user a
+	Google credentials in Manage Profile.</B>
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_f10af8ec.png"  alt="Unable to display Image">
+				</P>
+				<OL START="8">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">
+							<B>Facebook credentials are
+		configured in Emulator</B>
+						</P>
+					
+				</OL>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_92fdae4a.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<br>
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_a9593943.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<br>
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_5faf180a.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<br>
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_8c50b4e9.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<br>
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_f6217afb.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="margin-bottom: 0.11in">
+					<br>
+				</P>
+				<OL START="9">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in">Copy the images in folder src\test\resources\Assets to emulator picture folder
+	Files -&gt;sdk_gphone_x86 
+							<B>(DCIM -&gt; Pictures Folder)</B>
+						</P>
+					
+				</OL>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_2b24234e.png"  alt="Unable to display Image">
+				</P>
+				<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">
+					<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_32750b20.png"  alt="Unable to display Image">
+				</P>
+				<OL START="2">
+					<LI>
+						<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+								<B>Dependencies/Limitations</B>
+						</P>
+					
+					<OL TYPE="a">
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">While executing the Google and
+			Facebook related Test cases in sequence, it doesn’t login to
+			correct user login ie. Instead of Google user login it login to
+			Facebook and vice versa. Defect is already been reported. Until the
+			defect gets fixed, it has be executed separately.</P>
+						
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Inorder to execute the Test via
+			redeem rewards, ensure redeem rewards are not submitted already, if
+			so entry has to be removed in Dynamics for that email-id.</P>
+						
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Ensure the ArcheType are set as
+			“Planning to Have a Baby” for user logins
+			(Email/Google/FaceBook/Apple) since Manage Profile Test cases
+			executes in that order.</P>
+						
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Some Front-end automation
+			Scripts also covers both API and Front End App ie. creating a data
+			setup /GET Response via API and perform the necessary steps. 
+			
+								<B>References:</B> LiveEvents, Explore and Moments Log.
+							</P>
+						
+						<LI>
+							<P STYLE="margin-bottom: 0.11in">Not all API’s are automated
+			since POST/PATCH calls involves runtime data change as cannot use
+			the same Test data again. This part is covered as part Mobile App
+			integration to trigger POST/PATCH calls while triggering
+			Create/Update operations in Front-end Mobile App.</P>
+						
+					</OL>
+				</OL>
+					<OL START="3">
+						<LI>
+							<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+									<B>How to execute the Test</B>
+							</P>
+						
+						<P STYLE="margin-bottom: 0.11in">
+							<B>Pre-requsites:</B>
+						</P>
+						<OL>
+							<LI>
+								<P STYLE="margin-bottom: 0.11in">Ensure Screenshot is marked to
+			“Y” to take the Screenshots.</P>
+							
+							<LI>
+								<P STYLE="margin-bottom: 0.11in">Ensure the Test classes are
+			present in TestNG xml  for execution</P>
+							
+							<P STYLE="margin-bottom: 0.11in">
+								<IMG SRC="OverviewImage's/72281cd0fc6994b5171dbb05ccd1d688_html_23dc8b3e.png"  alt="Unable to display Image">
+							</P>
+							<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+											<I>
+												<B>
+													<SPAN STYLE="background: #e8f2fe">Emulator:	Pixel_3_API_30</SPAN>
+												</B>
+											</I>
+							</P>
+							<P STYLE="margin-bottom: 0.11in">
+								<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_2bb7ddf1.png"  alt="Unable to display Image">
+							</P>
+							<OL START="3">
+								<LI>
+									<P STYLE="margin-bottom: 0.11in">Ensure User credentials are
+				present in Constants file.</P>
+								
+							</OL>
+							<P STYLE="margin-bottom: 0.11in">
+								<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_5d47b1ca.png"  alt="Unable to display Image">
+							</P>
+							<P STYLE="text-indent: 0.5in; margin-bottom: 0.11in">4)  Right click
+			TestNG.xml and Run as “TestNG Suite” to execute the Test</P>
+							<P STYLE="margin-bottom: 0.11in">
+								<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_2c9be73.png"  alt="Unable to display Image">
+							</P>
+						</OL>
+					</OL>
+					<OL START="4">
+						<li>
+							<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+									<B>How to Verify the results</B>
+							</P>
+							<P STYLE="margin-bottom: 0.11in">
+								<B>The results are stored under \ExtentReports</B>
+							</P>
+							<P STYLE="margin-bottom: 0.11in">
+								<IMG SRC="OverviewImages/72281cd0fc6994b5171dbb05ccd1d688_html_aa729b70.png"  alt="Unable to display Image">
+							</P>
+						
+						<P STYLE="margin-bottom: 0.11in">
+							<br>
+						</P>
+						<P STYLE="margin-bottom: 0.11in">
+							<a href="OverviewImages/Extent.html">Extent Report</a>
+						</P>
+						<P STYLE="margin-bottom: 0.11in">
+							<B>Automation Test script details</B>
+						</P>
+						<P STYLE="margin-bottom: 0.11in">
+							<a href="OverviewImages/TestCaseDetails.html">Test Case Details</a>
+						</P>
+					</OL>
+					<OL START="5">
+						<li>
+							<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+									<B>Notes related to Test data Creation/Deletion/Update:</B>
+							</P>
+							<P STYLE="margin-bottom: 0.11in">1.	While running some test cases , test data is deleted. Examples</P>
+							<OL type="a">
+								<LI><P STYLE="margin-bottom: 0.11in">For tests related to Moments log, Vaccine log and Growth log all moments data is deleted first before running tests. This includes testing of empty state for Growthlog, VaccineLog and Moments log. </P>
+								<LI><P STYLE="margin-bottom: 0.11in">For Tests related to checking Like/UnLike/Bookmark/RemoveBookmark functionality, all likes and Bookmarks are removed before running tests.</P>
+								<LI><P STYLE="margin-bottom: 0.11in">User is removed from all group for one test case. Test class: ExplorePageBasedOnGroupsSectionTest TestMethod:verifyYouNotPartGroupsSection_ExplorePageTestBasedOnGroupsSectionTest</P>
+							</OL>
+							<P STYLE="margin-bottom: 0.11in">2.	Archetype of user is updated for some of the testcases. Similarly DOB is updated for Child profiles and Due date is updated for Primary profiles.</P>
+							<P STYLE="margin-bottom: 0.11in">3.	Interests are updated while running test cases for Explore page- Update your interests section.</P>						
+							<P STYLE="margin-bottom: 0.11in">4.	For Test cases related to Group chat and Based on Interests section, If user hasn’t joined any group than user joins first available group</P>
+					</OL>					
+					<OL START="6">
+						<li>
+							<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+									<B>Observations:</B>
+							</P>
+							<P STYLE="margin-bottom: 0.11in">1) Scripts requires maintenance. Ie. As there are no stable locators in Mobile App, hence if there are any locator changes needs to be corrected in the Script.</P>
+							<P STYLE="margin-bottom: 0.11in">2) Scripts tend to Fail incase of data not available  Ex: LiveEvents data, Moments Log.</P>
+							<P STYLE="margin-bottom: 0.11in">3) If there are any latency issues during execution, then automation execution leads to failure as it needs to be executed manually.</P>						
+					</OL>
+				</OL>
+			</OL>
+		<OL START="4">
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:20px">
+						<B>Creating new testcases</B>
+				</P>
+			<OL  START="1">	
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:15px">
+						<B>Steps for Creating new Front End Testcase</B>
+				</P>				
+			<OL>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">If the testcase is created for a new page in the Mobile app, a new page class should be created under com.pom.crimson.pages package which should contain all the elements available in the page with appropriate locators assigned using xpath and the respective methods should be created to simulate the interactions with those elements.</P>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">The page class should inherit BasePage class.</P>									
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Seperate Test class should be created under the respective module's package.</P>									
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">The Test class should inherit BaseFixture class which will take care of driver initialization.</P>									
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">@BeforeTest() method should be created if there are any pre-requisites to be done before starting the test. @BeforeTest() name should not be same as the @BeforeTest() name in BaseFixture.</P>									
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">@BeforeMethod() should be craeted and should instantiate LogAssert object if it is used. This is to reset the test result values before each test method. Apart from that, if there are any scripts that needs to be executed before each Test method run can be included.</P>									
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Required @Test methods can be created for each test cases.</P>														
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">@AfterMethod() and @AfterTest() methods can be created if required, but with a different name not as in BaseFixture. </P>																
+			</OL>
+			</OL>
+			<OL  START="2">	
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:15px">
+						<B>Steps for Creating new API Testcase</B>
+				</P>				
+			<OL>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Same steps as above should be followed for API Test cases also, except If we are creating a new API class it should have an object of BaseAPITest for getting the accesstoken which is used for Authorization of APIs.</P>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">The Test class should inherit BaseFixtureForAPI.</P>									
+			</OL>
+			</OL>			
+		</OL>		
+		<OL START="5">
+			<LI>
+				<P STYLE="margin-bottom: 0.11in; font-family:Arial, Helvetica, sans-serif; font-size:15px">
+						<B>Notes for generating javadoc</B>			
+			<OL>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">Overview document "doc\overview.html" should be u for generating javadoc.</P>
+				<LI>
+					<P STYLE="margin-bottom: 0.11in">javadoc command line parameter "-encoding UTF-8" should be used.</P>												
+			</OL>
+		</OL>
+	</BODY>
+</HTML>
